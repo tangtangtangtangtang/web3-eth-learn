@@ -1,0 +1,14 @@
+{
+    "name": "smart",
+    "scripts": {
+        "compile": "node ./compile.js",
+        "deploy": "node ./deploy.js"
+    },
+    "devDependencies": {
+        "solc": "^0.8.26"
+    },
+    "dependencies": {
+        "hardhat": "2.18.0",
+        "web3": "^4.10.0"
+    }
+}
